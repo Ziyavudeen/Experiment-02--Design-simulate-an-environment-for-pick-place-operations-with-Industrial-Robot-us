@@ -55,6 +55,7 @@ Rename the first target as Home by pressing F2. Alternatively, select ToolsRenam
  
  ### Name:A.Ziyavudeen Register Number:212221040189
  
+```
 import sys
 import os
 sys.path.append(os.path.abspath(r"""E:/RoboDK/Posts/""")) # temporarily add path to POSTS folder
@@ -98,7 +99,7 @@ r.ProgStart(r"""pick_B""")
 r.MoveJ(p(25.497,-57.3097,200.657,-90,-0.000220614,180),[32.8573,-74.9724,-134.453,-60.575,89.9999,32.8573],[0,1,0])
 
 raise Exception("""Your license does not allow generating programs with more than 50 lines of code. Upgrade your license to unlock this feature.""") 
- 
+ ```
  ### SIMULATION
  
  ![image](https://user-images.githubusercontent.com/120120067/206671248-4a6f4f44-275e-431d-98b4-2eb6dfe25766.png)
